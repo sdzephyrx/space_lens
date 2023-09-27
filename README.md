@@ -5,8 +5,11 @@ Front-end disponibilizado por Alura cursos.
 
 - Arquivo requeriments.txt mostra as dependencias necessarias do ambiente 
 virtual para execução do projeto.
+Comando para rodar no ambiente virtual para instalação dos pacotes:
+  - pip install -r requirements.txt
 
-Apos o clone do projeto, necessario realizar os seguintes comandos para 
-que o projeto funcione:
-  - python manage.py collectstatic (para import de assets)
+Apos o clone do projeto, use o seguinte comando para iniciar o servidor:
   - python manage.py runserver (para rodar o servidor)
+
+Caso ocorra de não carregar as imagens, rodar o seguinte comando:
+  - python manage.py collectstatic (para import de assets)
