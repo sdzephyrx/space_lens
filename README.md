@@ -7,7 +7,7 @@ Front-end disponibilizado por Alura cursos.
 virtual para execução do projeto.
 Comando para rodar no ambiente virtual para instalação dos pacotes:
   - pip install -r requirements.txt
-  - ( gerar a SECRET_KEY do django )
+  - echo "SECRET_KEY=`python generate_secret_key.py`" > .env
   - python manage.py migrate ( para importar o schema do banco )
   - python manage.py createsuperuser ( para criar o usuario admin do banco )
 
