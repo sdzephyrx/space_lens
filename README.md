@@ -1,7 +1,7 @@
-# alura_space
+# Space Lens
 Exercicio das aulas do curso de Django da Alura.
 Projeto criado para manipulação de conceitos de Django em ambiente web
-Front-end disponibilizado por Alura cursos.
+Front-end e CSS disponibilizado por Alura cursos.
 
 - Arquivo requeriments.txt mostra as dependencias necessarias do ambiente 
 virtual para execução do projeto.
