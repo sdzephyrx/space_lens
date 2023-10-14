@@ -7,7 +7,7 @@ Front-end e CSS disponibilizado por Alura cursos.
 virtual para execução do projeto.
 Comando para rodar no ambiente virtual para instalação dos pacotes:
   - pip install -r requirements.txt
-  - echo "SECRET_KEY=`python scripts/secret_key_generator.py`" > .env
+  - python scripts/secret_key_generator.py > .env
   - python manage.py migrate ( para importar o schema do banco )
   - python manage.py createsuperuser ( para criar o usuario admin do banco )
 
